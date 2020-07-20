@@ -1,6 +1,6 @@
 Data Peserta Sanbercode Bootcamp ReactJS
-1. Nama: WIDI AIS
-2. Email: widiahmadibnu@gmail.com	
-3. Sistem Operasi yang digunakan: Windows 10
-4. Akun Gitlab: github.com/widiais
-5. Akun Telegram: @Widiahmadibnu
+1. Nama                           : WIDI AIS
+2. Email                          : widiahmadibnu@gmail.com	
+3. Sistem Operasi yang digunakan  : Windows 10
+4. Akun Gitlab                    : github.com/widiais
+5. Akun Telegram                  : @Widiahmadibnu
