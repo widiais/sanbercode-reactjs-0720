@@ -3,20 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="public/css/style.css" rel="stylesheet" type="text/css">
     <title>Document</title>
 </head>
 <body>
     <header>
+        <img id="logo" src="public/css/img/logo.png" width="200px" />
+        <nav>
+          <ul>
+            <a href="index.html"><li>Home</li></a>
+            <a href="about.html"><li>About</li></a>
+            <a href="contact.html"><li>Contact</li></a>
+          </ul>
+        </nav>
+      </header>
+    <section id="contact">
         <h1><b>Hubungi Kami</b></h1>
         <p>
             <b>Kantor :</b> dijalan belum jadi <br>
             <b>Nomor Telpon :</b> 085624466535 <br>
             <b>Email :</b> widiahmadibnu@gmail.com
         </p>
-    </header>
-    <section>
-
+        <h1><b>Kirimkan Pesan</b></h1>
+        <form action="">
+            <table>
+                <tr>
+                    <td><label for="name">Nama</label></td>
+                    <td><input type="text" name="" id="name"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email</label></td>
+                    <td><input type="email" name="" id="email"></td>
+                </tr>
+                <tr>
+                    <td><label for="jenisKelamin">Jenis Kelamin</label></td>
+                    <td>
+                        <label><input type="radio" name="jenisKelamin" id="genre">Laki-laki</label> <br>
+                        <label><input type="radio" name="jenisKelamin" id="genre">Perempuan</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="pesan">Pesan</label></td>
+                    <td><textarea name="pesan" id="pesan" cols="50" rows="5"></textarea></td>
+                </tr>
+            </table>
+            <button>Kirim</button>
+        </form>
     </section>
-    <a href="index.html">Kembali Ke Index</a>
+    <div id="">
+        <a href="index.html">Kembali Ke Index</a>
+    </div>
+    <footer class="">
+        <h5>copyright &copy; 2020 by Sanbercode</h5>
+  </footer>
 </body>
 </html>
