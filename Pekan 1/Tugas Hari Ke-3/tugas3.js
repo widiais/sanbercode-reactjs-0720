@@ -122,4 +122,5 @@ switch (bulan) {
         bulan = " Desember ";
   };
 
-  console.log(tanggal+bulan+tahun)
+  var tanggalLahir= tanggal+bulan+tahun
+  console.log(tanggalLahir.toString())
