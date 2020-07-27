@@ -15,23 +15,6 @@ console.log(arrayPersertaObj.nama);
 // Soal 2
 /*
 anda diberikan data-data buah seperti di bawah ini
-
-1.nama: strawberry
-  warna: merah
-  ada bijinya: tidak
-  harga: 9000 
-2.nama: jeruk
-  warna: oranye
-  ada bijinya: ada
-  harga: 8000
-3.nama: Semangka
-  warna: Hijau & Merah
-  ada bijinya: ada
-  harga: 10000
-4.nama: Pisang
-  warna: Kuning
-  ada bijinya: tidak
-  harga: 5000
 uraikan data tersebut menjadi array of object dan munculkan data pertama
 */
 
@@ -67,8 +50,6 @@ function addFilm(object) {
 console.log(addFilm(object));
 
 
-
-
  // Soal 4
  class Animal {
     constructor(name, legs, cold_blooded){
@@ -83,13 +64,7 @@ var sheep = new Animal("shaun");
 console.log(sheep.name) // "shaun"
 console.log(sheep.legs) // 4
 console.log(sheep.cold_blooded) // false
-/*
-Buatlah class Frog dan class Ape yang merupakan inheritance dari class Animal.
-Perhatikan bahwa Ape (Kera) merupakan hewan berkaki 2,
-hingga dia tidak menurunkan sifat jumlah kaki 4 dari class Animal.
-class Ape memiliki function yell() yang menampilkan “Auooo” dan 
-class Frog memiliki function jump() yang akan menampilkan “hop hop”.
-*/
+
 // Code class Ape dan class Frog di sini
 class Ape extends Animal {
     constructor(name, legs){
